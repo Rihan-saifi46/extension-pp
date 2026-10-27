@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Swastik CRM for WhatsApp</title>
+  <style>
+    :root {
+      --primary: #0B5C3A;
+      --primary-light: #e8f5e9;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --bg: #ffffff;
+      --card-bg: #f8fafc;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 0 16px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 40px auto 80px;
+      padding: 36px 32px;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    .header {
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 28px;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .meta {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    h2 {
+      font-size: 20px;
+      color: #0f172a;
+      margin-top: 32px;
+      margin-bottom: 14px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 16px;
+      color: #334155;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+    p {
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+    ul {
+      margin-left: 24px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+    .card {
+      background: var(--card-bg);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    .card strong {
+      color: var(--primary);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      text-align: left;
+    }
+    th {
+      background-color: var(--card-bg);
+      color: var(--primary);
+    }
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    .contact-box {
+      background: var(--primary-light);
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <span class="badge">Official Privacy Policy</span>
+    <h1>Privacy Policy for Swastik CRM for WhatsApp</h1>
+    <div class="meta">
+      <strong>Extension Name:</strong> Swastik CRM for WhatsApp | <strong>Developer:</strong> Swastik Jewels | <strong>Last Updated:</strong> October 27, 2026
+    </div>
+  </div>
+
+  <div class="card">
+    <p><strong>Overview:</strong> This Privacy Policy governs the use of the Chrome browser extension <strong>"Swastik CRM for WhatsApp"</strong> developed by <strong>Swastik Jewels</strong>. We are committed to protecting your privacy and handling your data transparently. This policy details what data is accessed, collected, stored, and transmitted, as well as your rights and our strict adherence to Google's Chrome Web Store User Data Policy.</p>
+  </div>
+
+  <h2>1. Scope and Purpose</h2>
+  <p>
+    <strong>Swastik CRM for WhatsApp</strong> is a productivity tool designed for authorized sales representatives and staff of Swastik Jewels. The extension integrates the Swastik CRM system directly into WhatsApp Web (<code>https://web.whatsapp.com</code>), enabling users to:
+  </p>
+  <ul>
+    <li>View and match active WhatsApp contacts with CRM customer and lead records.</li>
+    <li>Create and update CRM leads directly from WhatsApp Web conversations.</li>
+    <li>Send quick reply templates and jewelry catalog product links.</li>
+    <li>Generate AI-assisted summaries of active customer chats upon explicit user request.</li>
+    <li>Organize broadcast communications to opt-in CRM customers.</li>
+  </ul>
+
+  <h2>2. What User Data We Access and Collect</h2>
+  <p>We access and collect only the data strictly necessary to provide the extension's stated CRM functionalities:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Data Category</th>
+        <th>Source</th>
+        <th>Purpose &amp; Usage</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Account Credentials &amp; Session Tokens</strong></td>
+        <td>Provided by user during extension login</td>
+        <td>Username, user ID, role, and API authentication token (JWT) are used to authenticate requests to the Swastik CRM API server. Passwords are never stored; they are only transmitted over TLS to authenticate.</td>
+      </tr>
+      <tr>
+        <td><strong>WhatsApp Contact Information</strong></td>
+        <td>Active WhatsApp Web DOM / React state (<code>web.whatsapp.com</code>)</td>
+        <td>The phone number and display name of the currently opened or selected WhatsApp chat are accessed locally to look up existing CRM leads, associate chat interactions, and save new customer records.</td>
+      </tr>
+      <tr>
+        <td><strong>Chat Transcripts (User-Initiated AI Summary)</strong></td>
+        <td>Active WhatsApp chat message area (<code>web.whatsapp.com</code>)</td>
+        <td><strong>Only when the user clicks the "AI Summarize" button</strong>, the visible text transcript of the active chat conversation is sent to the Swastik CRM backend to generate a concise summary note for the lead record. Transcripts are never collected in the background or continuously recorded.</td>
+      </tr>
+      <tr>
+        <td><strong>User-Configured Templates &amp; Quick Replies</strong></td>
+        <td>Created by user inside the extension</td>
+        <td>Custom quick-reply text snippets saved by the user for rapid customer responses.</td>
+      </tr>
+      <tr>
+        <td><strong>Campaign Progress State</strong></td>
+        <td>Generated during broadcast execution</td>
+        <td>Delivery status counters and campaign identifiers to allow resuming interrupted message sequences.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>3. What Data We DO NOT Access or Collect</h2>
+  <p>We respect user privacy and enforce strict minimization:</p>
+  <ul>
+    <li>We <strong>do not</strong> access or read browsing activity on any website other than WhatsApp Web (<code>https://web.whatsapp.com</code>).</li>
+    <li>We <strong>do not</strong> read or monitor personal messages in unselected chats or background conversations.</li>
+    <li>We <strong>do not</strong> collect credit card numbers, payment banking details, or biometric information.</li>
+    <li>We <strong>do not</strong> use cookies, advertising identifiers, or analytics tracking scripts.</li>
+  </ul>
+
+  <h2>4. Data Storage and Retention</h2>
+  <p>
+    <strong>Local Storage:</strong> Authentication tokens, user display names, user IDs, user roles, API configuration URLs, quick reply templates, and campaign resume states are stored locally in the browser using the Chrome Storage API (<code>chrome.storage.local</code>). This data remains strictly sandboxed within your local Chrome profile.
+  </p>
+  <ul>
+    <li><strong>Immediate Deletion on Logout:</strong> When you click "Log Out" in the extension popup or sidebar, your authentication token, user ID, and username are immediately and permanently erased from <code>chrome.storage.local</code>.</li>
+    <li><strong>Uninstallation:</strong> Uninstalling the extension completely removes all locally stored data from your device.</li>
+    <li><strong>Backend CRM Retention:</strong> Customer and lead records saved to the Swastik CRM backend are retained according to Swastik Jewels' enterprise CRM data retention policies and applicable business compliance laws.</li>
+  </ul>
+
+  <h2>5. Data Transmission and Third-Party Sharing</h2>
+  <p>
+    All network transmissions occur over encrypted HTTPS/TLS connections:
+  </p>
+  <ul>
+    <li><strong>Swastik CRM API:</strong> Data is transmitted exclusively to authorized Swastik backend endpoints (<code>https://backend-api.swastikjewel.in/api</code>).</li>
+    <li><strong>Catalog Media CDNs:</strong> The extension accesses verified image hosts (Cloudinary, Cloudflare R2, and Shopify CDN) solely to retrieve jewelry catalog product photos for previewing and sharing.</li>
+    <li><strong>No Third-Party Sale:</strong> We <strong>never</strong> sell, rent, lease, or monetize your personal or customer data to third parties, data brokers, advertising networks, or market research firms.</li>
+    <li><strong>No Targeted Advertising:</strong> Data collected by the extension is never used for personalized advertising or profiling.</li>
+  </ul>
+
+  <h2>6. Google Chrome Web Store User Data Policy Compliance</h2>
+  <div class="card">
+    <p>
+      <strong>Limited Use Disclosure:</strong> Swastik CRM for WhatsApp complies fully with the <strong>Chrome Web Store Developer Program Policies</strong>, including the <strong>Chrome Web Store User Data Policy (Limited Use)</strong> requirements:
+    </p>
+    <ul style="margin-top: 8px;">
+      <li>Data is accessed solely to provide user-facing features that are prominent and user-requested.</li>
+      <li>Data is not transferred to third parties except as necessary to provide or improve the core functionality of the extension.</li>
+      <li>Data is not used or transferred to determine creditworthiness or for lending purposes.</li>
+      <li>Data is not used or transferred for advertising, user profiling, or marketing purposes.</li>
+    </ul>
+  </div>
+
+  <h2>7. Permissions Justification</h2>
+  <p>The extension requests only the minimum necessary permissions:</p>
+  <ul>
+    <li><code>storage</code>: Required to store authentication session tokens and user quick reply templates locally within Chrome.</li>
+    <li><code>host_permissions</code>:
+      <ul>
+        <li><code>https://web.whatsapp.com/*</code>: Required to inject the CRM sidebar and detect active customer contacts.</li>
+        <li><code>https://*.swastikjewel.in/*</code>: Required to communicate with the Swastik CRM API backend.</li>
+        <li><code>https://res.cloudinary.com/*</code>, <code>https://*.cloudinary.com/*</code>, <code>https://*.r2.dev/*</code>, <code>https://*.cloudflarestorage.com/*</code>: Required to fetch product catalog imagery for jewelry items.</li>
+      </ul>
+    </li>
+  </ul>
+  <p><em>Note: The <code>activeTab</code> permission has been completely removed as it is not required for the extension's operation.</em></p>
+
+  <h2>8. Security Measures</h2>
+  <p>
+    We implement industry-standard administrative, technical, and physical safeguards:
+  </p>
+  <ul>
+    <li>All data in transit is protected using Transport Layer Security (TLS 1.2+).</li>
+    <li>Local storage is isolated to the extension's secure sandbox.</li>
+    <li>API communication requires bearer token authentication with expiration intervals.</li>
+  </ul>
+
+  <h2>9. User Rights and Deletion Requests</h2>
+  <p>
+    Users have the right to access, rectify, or delete their personal data:
+  </p>
+  <ul>
+    <li><strong>Local Data:</strong> Clear local extension data anytime by logging out or uninstalling the extension.</li>
+    <li><strong>CRM Data:</strong> To request access to, modification of, or deletion of customer records stored in the Swastik CRM backend, please contact our support team.</li>
+  </ul>
+
+  <h2>10. Contact Us</h2>
+  <div class="contact-box">
+    <p>If you have any questions, concerns, or data requests regarding this Privacy Policy or the Swastik CRM for WhatsApp extension, please contact:</p>
+    <p style="margin-top: 10px;">
+      <strong>Swastik Jewels</strong><br>
+      <strong>Grievance &amp; Privacy Officer</strong><br>
+      <strong>Email:</strong> <a href="mailto:support@swastikjewel.in">support@swastikjewel.in</a><br>
+      <strong>Phone:</strong> +91 96600 96700<br>
+      <strong>Website:</strong> <a href="https://www.swastikjewel.in" target="_blank" rel="noopener">https://www.swastikjewel.in</a><br>
+      <strong>Address:</strong> 2549, Gali No. 6, Block 35M, Beadonpura, Karol Bagh, New Delhi, Delhi, 110005, India
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
